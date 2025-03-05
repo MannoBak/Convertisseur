@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Convertir Unite</string>
+
+    <string name="btn_conv">Convertir</string>
+    <string name="btn_reset">Restaurer</string>
+
+    //Pour les unités a convertir
+    <string-array name="unite_a_convertir">
+        <item>Poids</item>
+        <item>Longueur</item>
+        <item>Température</item>
+        <item>Temps</item>
+        <item>Devise</item>
+
+    </string-array>
+
+    //Les elements du poids
+    <string-array name="item_poids">
+        <item>Kilogramme</item>
+        <item>Gramme</item>
+        <item>Livre</item>
+    </string-array>
+
+    //Les elements de longueur
+    <string-array name="item_longueur">
+        <item>Millimètre</item>
+        <item>Centimètre</item>
+        <item>Mètre</item>
+        <item>Kilomètre</item>
+    </string-array>
+
+    //Les elements de Température
+    <string-array name="item_temperature">
+        <item>Celsius</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    //Les elements du temps
+    <string-array name="item_temps">
+        <item>Seconde</item>
+        <item>Minute</item>
+        <item>Heure</item>
+        <item>Jour</item>
+    </string-array>
+
+    //Les elements du device
+    <string-array name="item_devise">
+        <item>Cfa</item>
+        <item>Euro</item>
+        <item>Dollar</item>
+    </string-array>
+
+</resources>

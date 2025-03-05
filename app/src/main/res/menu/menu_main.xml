@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/point_menu"
+        android:title="Options"
+        android:orderInCategory="101"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_settings"
+                android:title="Paramètre">
+                <menu>
+                    <item
+                        android:id="@+id/menu_language"
+                        android:title="Langue"/>
+                    <item
+                        android:id="@+id/menu_theme"
+                        android:title="Thème"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_help"
+                android:title="Aide"/>
+            <item
+                android:id="@+id/menu_about"
+                android:title="A propos"/>
+        </menu>
+    </item>
+</menu>
